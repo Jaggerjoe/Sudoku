@@ -5,23 +5,16 @@ using UnityEngine;
 public class CaseNumber 
 {
     [SerializeField] private int m_Number = 0;
-    [SerializeField] private int [] m_Values = new int[9];
+    //[SerializeField] private int [] m_Values = new int[9];
+    [SerializeField] private GameObject[] m_SubCaseNumber = new GameObject[9];
     private GameObject m_Case = null;
 
     public GameObject Case { get { return m_Case; } set { m_Case = value; } }
+    public GameObject[] SubCaseNumber { get { return m_SubCaseNumber; } set { m_SubCaseNumber = value; } }
     public CaseNumber(GameObject p_Object)
     {
-        Number();
         m_Case = p_Object;
     }
 
-    void Number()
-    {
-        int l_Number = 1;
-        for (int i = 0; i < m_Values.Length; i++)
-        {
-            m_Values[i] = l_Number;
-            l_Number++;
-        }
-    }
+
 }

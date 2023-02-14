@@ -11,10 +11,20 @@ public class GameManager : MonoBehaviour
 
     private void OnEnable()
     {
-        CreateGrid();
+        CreateCaseNumber();
     }
 
-    void CreateGrid()
+    private void Update()
+    {
+       
+    }
+
+    void GetCaseNumber()
+    {
+       
+    }
+
+    void CreateCaseNumber()
     {
         for (int i = 0; i < 9; i++)
         {
@@ -26,18 +36,24 @@ public class GameManager : MonoBehaviour
                 m_CaseNumber.Add(l_Number);
             }
         }
-        CreateCaseNumber();
+        CreateSubCaseNumber();
     }
 
-    void CreateCaseNumber()
+    void CreateSubCaseNumber()
     {
         for (int i = 0; i < m_CaseNumber.Count; i++)
         {
             for (int j = 0; j < 9; j++)
             {
-                GameObject l_CaseNumber = Instantiate(m_CaseNumberPrefab, m_CaseNumber[i].Case.transform);
-                Text l_Text = l_CaseNumber.GetComponentInChildren<Text>();
+                //Class pour l'index ?
+                GameObject l_SubCaseNumber = Instantiate(m_CaseNumberPrefab, m_CaseNumber[i].Case.transform.Find("SubCaseNumber"));
+                l_SubCaseNumber.GetComponent<Button>().onClick.AddListener(GetCaseNumber);
+                CaseSubNumber l_CseSub = l_SubCaseNumber.GetComponent<CaseSubNumber>();
+                l_CseSub.CaseParent = m_CaseNumber[i].Case;
+                l_CseSub.Number = j + 1;
+                Text l_Text = l_SubCaseNumber.GetComponentInChildren<Text>();
                 l_Text.text = (j + 1).ToString();
+                m_CaseNumber[i].SubCaseNumber[j] = l_SubCaseNumber;
             }
         }
     }

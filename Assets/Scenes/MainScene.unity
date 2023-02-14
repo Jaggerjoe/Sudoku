@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Prefab: {fileID: 8260781341866497937, guid: 7156afe6ac22e6343a815d4cb17e5593, type: 3}
-  m_CaseNumberPrefab: {fileID: 8260781341866497937, guid: dcfe4f4b62a461642b051de161c40fe9, type: 3}
+  m_CaseNumberPrefab: {fileID: 3984091009230501400, guid: f66b82dd98ac825469447be6e3314efc, type: 3}
   m_Parent: {fileID: 1130827059}
   m_CaseNumber: []
 --- !u!1 &705507993

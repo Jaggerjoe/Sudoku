@@ -25,7 +25,6 @@ public class CaseSubNumber
 
     public void AddListenerToButton()
     {
-        m_CaseParent.Number = m_Number;
-        m_CaseParent.DisplayNumberChoose();
+        m_CaseParent.DisplayNumberChoose(m_Number);
     }
 }

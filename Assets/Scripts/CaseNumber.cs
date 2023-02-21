@@ -8,6 +8,7 @@ public class CaseNumber
     #region References
     [SerializeField] private int m_Number = 0;
     private CaseSubNumber[,] m_SubCaseNumber = new CaseSubNumber[3,3];
+    private SubGrid m_SubGrid = null;
     private GameObject m_Case = null;
     private GameObject m_GridSubCase = null;
     private Text m_Text = null;
@@ -22,18 +23,23 @@ public class CaseNumber
     public int Number { get { return m_Number; }set { m_Number = value; } }
     #endregion
 
-    public CaseNumber(GameObject p_Object, GameObject p_Grid, Text p_Text)
+    public CaseNumber(GameObject p_Object, GameObject p_Grid, Text p_Text, SubGrid p_SubGrid)
     {
         m_Case = p_Object;
         m_GridSubCase = p_Grid;
         m_Text = p_Text;
+        m_SubGrid = p_SubGrid;
     }
 
-    public void DisplayNumberChoose()
+    public void DisplayNumberChoose(int p_Number)
     {
-        m_GridSubCase.SetActive(false);
-        m_Text.text = m_Number.ToString();
-        m_Text.fontSize = 54;
-        m_Text.enabled = true;
+        if(m_SubGrid.CheckNumberIsValid(p_Number))
+        {
+            m_Number = p_Number;
+            m_GridSubCase.SetActive(false);
+            m_Text.text = m_Number.ToString();
+            m_Text.fontSize = 54;
+            m_Text.enabled = true;
+        }
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] GameObject m_SubGrid = null;
     [SerializeField] GameObject m_Prefab = null;
     [SerializeField] GameObject m_CaseNumberPrefab = null;
     [SerializeField] Transform m_Parent = null;
@@ -11,23 +12,26 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] List<SubGrid> m_SubGird = new List<SubGrid>();
 
+    private SubGrid[,] m_SubGridArray = new SubGrid[3, 3];
+
     private void OnEnable()
     {
         CreateSubGrid();
     }
-
-    private void Update()
-    {
-       
-    }
-
     void CreateSubGrid()
     {
+        int l_Num = 1;
         for (int i = 0; i < 3; i++)
         {
             for (int j = 0; j < 3; j++)
             {
-                SubGrid l_NewSubGrid = new SubGrid();
+                GameObject l_SubGridObject = Instantiate(m_SubGrid, m_Parent.position, Quaternion.identity, m_Parent);
+                l_SubGridObject.name = "Subgrid " + l_Num;
+                l_Num++;
+                SubGrid l_NewSubGrid = new SubGrid(l_SubGridObject);
+                m_SubGridArray[i, j] = l_NewSubGrid;
+                if(m_SubGridArray[i,0] != null)
+                    Debug.Log(m_SubGridArray[i,0].SubGridObject);
                 m_SubGird.Add(l_NewSubGrid);
             }
         }
@@ -48,13 +52,13 @@ public class GameManager : MonoBehaviour
         {
             for (int j = 0; j < 3; j++)
             {
-                GameObject l_Case = Instantiate(m_Prefab, m_Parent.position, Quaternion.identity, m_Parent);
+                GameObject l_Case = Instantiate(m_Prefab, m_Parent.position, Quaternion.identity, p_SubGrid.SubGridObject.transform);
                 GameObject l_SubGrid = l_Case.GetComponentInChildren<GridLayoutGroup>().gameObject;
                 Text l_Text = l_Case.GetComponentInChildren<Text>();
                 l_Case.name = "Case " + t;
                 t++;
                 //creation des nombre par case
-                CaseNumber l_Number = new CaseNumber(l_Case, l_SubGrid,l_Text);
+                CaseNumber l_Number = new CaseNumber(l_Case, l_SubGrid,l_Text, p_SubGrid);
                 p_SubGrid.CaseNumber[i, j] = l_Number;
                 p_SubGrid.CaseDebug.Add(l_Number);
                 CreateSubCaseNumber(l_Number);

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class CaseSubNumber
+public class SubCaseNumber
 {
     #region References
     [SerializeField] int m_Number = 0;
@@ -11,12 +11,7 @@ public class CaseSubNumber
     private CaseNumber m_CaseParent;
     #endregion
 
-    #region Properties
-    public CaseNumber CaseParent { get { return m_CaseParent; } set { m_CaseParent = value; } }   
-    public int Number { get { return m_Number; } set { m_Number = value; } }
-    #endregion
-
-    public CaseSubNumber(int p_Number, GameObject p_SelfCase, CaseNumber p_CaseParent)
+    public SubCaseNumber(int p_Number, GameObject p_SelfCase, CaseNumber p_CaseParent)
     {
         m_Number = p_Number;
         m_SelfCase = p_SelfCase;

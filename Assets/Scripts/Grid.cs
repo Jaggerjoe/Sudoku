@@ -44,7 +44,7 @@ public class Grid
         return true;
     }
 
-    public bool CheckSubGridRow(int p_PositionSUbGridY, int p_PositionY, int p_Number)
+    public bool CheckSubGridRow(int p_PositionY, int p_PositionSUbGridY, int p_Number)
     {
         for (int j = 0; j < 3; j++)
         {
@@ -57,5 +57,21 @@ public class Grid
             }
         }
         return true;
+    }
+
+    public void DesactivateSubCaseNumberRow(int p_PositionX,int p_PositionSUbGridX, int p_Number)
+    {
+        for (int k = 0; k < 3; k++)
+        {
+            m_SubGridArray[p_PositionSUbGridX, k].DesactivateSubgCaseNumberRow(p_PositionX, p_Number);
+        }
+    }
+
+    public void DesactivateSubCaseNumberColum(int p_PositionY, int p_PositionSUbGridY, int p_Number)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            m_SubGridArray[i, p_PositionSUbGridY].DesactivateSubgCaseNumberColum(p_PositionY, p_Number);
+        }
     }
 }

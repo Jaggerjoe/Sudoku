@@ -45,4 +45,31 @@ public class SubGrid
         }
         return true;
     }
+
+    public void DesactivateSubCaseNumberOwnSubGrid(int p_Number)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                m_CaseNum[i, j].DesactivateSubCseNumber(p_Number);
+
+            }
+        }
+    }
+    public void DesactivateSubgCaseNumberRow(int p_PositionX,int p_Number)
+    {
+        for (int k = 0; k < 3; k++)
+        {
+            m_CaseNum[p_PositionX, k].DesactivateSubCseNumber(p_Number);
+        }
+    }
+
+    public void DesactivateSubgCaseNumberColum(int p_PositionY, int p_Number)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            m_CaseNum[i, p_PositionY].DesactivateSubCseNumber(p_Number);
+        }
+    }
 }

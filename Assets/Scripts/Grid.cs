@@ -43,4 +43,19 @@ public class Grid
         }
         return true;
     }
+
+    public bool CheckSubGridRow(int p_PositionSUbGridY, int p_PositionY, int p_Number)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            for (int k = 0; k < 3; k++)
+            {
+                if (m_SubGridArray[j, p_PositionSUbGridY].CaseNumber[k, p_PositionY].Number == p_Number)
+                {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
 }

@@ -37,7 +37,7 @@ public class CaseNumber
 
     public void DisplayNumberChoose(int p_Number)
     {
-        if (m_SubGrid.CheckNumberIsValid(p_Number) && m_SubGrid.Grid.CheckSubGridColum(m_PositionX, m_SubGrid.PositionSubgridX,p_Number))
+        if (m_SubGrid.CheckNumberIsValid(p_Number) && m_SubGrid.Grid.CheckSubGridColum(m_PositionX, m_SubGrid.PositionSubgridX,p_Number) && m_SubGrid.Grid.CheckSubGridRow(m_SubGrid.PositionSubgridY, m_PositionY, p_Number) )
         {
             m_Number = p_Number;
             m_GridSubCase.SetActive(false);

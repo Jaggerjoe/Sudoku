@@ -175,6 +175,7 @@ MonoBehaviour:
   m_Grid:
     m_SubGrid: []
   m_SudokuGenerator: {fileID: 107632892}
+  m_DataLevel: {fileID: 0}
 --- !u!114 &107632892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,6 +189,2367 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_GameManager: {fileID: 107632891}
+  m_DataLevel: {fileID: 11400000, guid: d5e6f50441eccf54d8e311388f75328b, type: 2}
+  m_Grid:
+    m_SubGrid:
+    - m_CaseDebug:
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+    - m_CaseDebug:
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+    - m_CaseDebug:
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+    - m_CaseDebug:
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+    - m_CaseDebug:
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+    - m_CaseDebug:
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+    - m_CaseDebug:
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+    - m_CaseDebug:
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+    - m_CaseDebug:
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+      - m_Number: 0
+        m_SubDebug:
+        - m_Number: 1
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 2
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 3
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 4
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 5
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 6
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 7
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 8
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
+        - m_Number: 9
+          m_SelfCase: {fileID: 0}
+          m_CanThisNumber: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

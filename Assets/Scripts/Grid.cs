@@ -14,13 +14,24 @@ public class Grid
     public List<SubGrid> SubGridList { get { return m_SubGrid; } }
     public SubGrid[,] SubGridArray { get { return m_SubGridArray; } }
     #endregion
-    public Grid(List<SubGrid> p_ListSubGrid, SubGrid[,] p_SubGrdArray)
+    public Grid()
     {
-        m_SubGridArray = p_SubGrdArray;
-        m_SubGrid = p_ListSubGrid;
+        CreateSubGrid();
         AddRefernceGrid();
+        m_SubGrid.Reverse();
     }
 
+    private void CreateSubGrid()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                m_SubGridArray[i, j] = new SubGrid(i,j);
+                m_SubGrid.Add(m_SubGridArray[i, j]);
+            }
+        }
+    }
     void AddRefernceGrid()
     {
         foreach (var item in m_SubGrid)

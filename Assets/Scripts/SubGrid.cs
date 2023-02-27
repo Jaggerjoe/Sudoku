@@ -17,20 +17,31 @@ public class SubGrid
     #region Properties
     public CaseNumber[,] CaseNumber { get { return m_CaseNum; } set{ m_CaseNum = value; } }
     public List<CaseNumber> CaseDebug { get { return m_CaseDebug; } set { m_CaseDebug = value; } }
-    public GameObject SubGridObject { get { return m_SubGridObject; } }
+    public GameObject SubGridObject { get { return m_SubGridObject; } set { m_SubGridObject = value; } }
     public Grid Grid { get{ return m_Grid; } set { m_Grid = value; } }
 
     public int PositionSubgridX { get{ return m_PositionSubGridX; } }
     public int PositionSubgridY { get{ return m_PositionSubGridY; } }
     #endregion
 
-    public SubGrid(GameObject p_SubGridObject, int p_PositionX, int p_PostionY)
+    public SubGrid(int p_PositionX, int p_PostionY)
     {
-        m_SubGridObject = p_SubGridObject;
         m_PositionSubGridX = p_PositionX;
         m_PositionSubGridY = p_PostionY;
+        CreateCaseNumber();
     }
 
+    private void CreateCaseNumber()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                m_CaseNum[i, j] = new CaseNumber(this,i,j);
+                m_CaseDebug.Add(m_CaseNum[i, j]);
+            }
+        }
+    }
     public bool CheckNumberIsValid(int p_Numnber)
     {
         for (int i = 0; i < 3; i++)

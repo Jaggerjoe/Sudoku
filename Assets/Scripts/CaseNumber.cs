@@ -20,20 +20,34 @@ public class CaseNumber
 
     #region Properties
     public GameObject Case { get { return m_Case; } set { m_Case = value; } }
+    public GameObject GridSubCaseNumber { set { m_GridSubCase = value; } }
+    public Text Text { set { m_Text = value; } }
     public SubCaseNumber[,] SubCaseNumber { get { return m_SubCaseNumber; } set { m_SubCaseNumber = value; } }
     public List<SubCaseNumber> SubDebug { get { return m_SubDebug; } set { m_SubDebug = value; } }
     public SubGrid SubGrid { get { return m_SubGrid; } }
     public int Number { get { return m_Number; }set { m_Number = value; } }
     #endregion
 
-    public CaseNumber(GameObject p_Object, GameObject p_Grid, Text p_Text, SubGrid p_SubGrid, int p_PositionX, int p_PositionY)
+    public CaseNumber(SubGrid p_SubGrid, int p_PositionX, int p_PositionY)
     {
-        m_Case = p_Object;
-        m_GridSubCase = p_Grid;
-        m_Text = p_Text;
         m_SubGrid = p_SubGrid;
         m_PositionX = p_PositionX;
         m_PositionY = p_PositionY;
+        CreateSubCaseNumber();
+    }
+
+    private void CreateSubCaseNumber()
+    {
+        int l_Number = 1;
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                m_SubCaseNumber[i, j] = new SubCaseNumber(l_Number, this);
+                m_SubDebug.Add(m_SubCaseNumber[i, j]);
+                l_Number++;
+            }
+        }
     }
 
     public void DisplayNumberChoose(int p_Number)
@@ -51,6 +65,18 @@ public class CaseNumber
         }
     }
 
+    public void DisplayNumber(int p_Number)
+    {
+        m_Number = p_Number;
+        m_GridSubCase.SetActive(false);
+        m_Text.text = m_Number.ToString();
+        m_Text.fontSize = 54;
+        m_Text.enabled = true;
+        m_SubGrid.DesactivateSubCaseNumberOwnSubGrid(p_Number);
+        m_SubGrid.Grid.DesactivateSubCaseNumberRow(m_PositionX, m_SubGrid.PositionSubgridX, p_Number);
+        m_SubGrid.Grid.DesactivateSubCaseNumberColum(m_PositionY, m_SubGrid.PositionSubgridY, p_Number);
+    }
+
     public void DesactivateSubCseNumber(int p_Number)
     {
         for (int i = 0; i < 3; i++)
@@ -61,6 +87,43 @@ public class CaseNumber
                 {
                     m_SubCaseNumber[i, j].DesactivateCase();
                 }
+            }
+        }
+    }
+
+    public bool CanSetNumber()
+    {
+        int m_SubCaseCantSetNumber = 0;
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                if(!m_SubCaseNumber[i, j].CanSetNumber)
+                {
+                    m_SubCaseCantSetNumber++;
+                }
+            }
+        }
+        if(m_SubCaseCantSetNumber ==9)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+
+    public void ResetCase()
+    {
+        m_Number = 0;
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                m_SubCaseNumber[i, j].ResetCase();
+                m_GridSubCase.SetActive(true);
+                m_Text.enabled = false;
             }
         }
     }

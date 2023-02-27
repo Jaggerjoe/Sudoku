@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 107632890}
   - component: {fileID: 107632891}
+  - component: {fileID: 107632892}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -171,7 +172,22 @@ MonoBehaviour:
   m_Prefab: {fileID: 8260781341866497937, guid: 7156afe6ac22e6343a815d4cb17e5593, type: 3}
   m_CaseNumberPrefab: {fileID: 3984091009230501400, guid: f66b82dd98ac825469447be6e3314efc, type: 3}
   m_Parent: {fileID: 1130827059}
-  m_SubGird: []
+  m_Grid:
+    m_SubGrid: []
+  m_SudokuGenerator: {fileID: 107632892}
+--- !u!114 &107632892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107632889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e74dec8609c4fa4d9eec6efcdde73c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameManager: {fileID: 107632891}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

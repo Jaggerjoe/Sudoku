@@ -7,24 +7,23 @@ public class SudokuGenerator : MonoBehaviour
     #region References 
     [SerializeField] GameManager m_GameManager = null;
     [SerializeField] DataLevel m_DataLevel = null;
-    [SerializeField] Grid m_Grid = null;
+    [SerializeField] GridSudoku m_Grid = null;
     #endregion
 
     #region Properties
-    public Grid Grid { get { return m_Grid; } }
+    public GridSudoku Grid { get { return m_Grid; } }
     #endregion
-    private void OnEnable()
-    {
-        
-    }
-    public IEnumerator CreateSUdokuGrid()
+
+    public IEnumerator CreateSudokuGrid()
     {
         int m_Index = 0;
 
-        while(m_DataLevel.m_GridsLevel.Count != 1)
+        while (m_DataLevel.m_GridsLevel.Count != 10)
         {
-            m_Grid = new Grid();
-            m_GameManager.AddGameObject(m_Grid);
+            GridSudoku l_Grid = new GridSudoku();
+            m_GameManager.AddGameObject(l_Grid);
+            m_Index = 0;
+
             while (m_Index != 81)
             {
                 for (int i = 0; i < 3; i++)
@@ -36,12 +35,12 @@ public class SudokuGenerator : MonoBehaviour
                             for (int u = 0; u < 3;)
                             {
                                 int l_Rdm = Random.Range(1, 10);
-                                if (m_Grid.SubGridArray[i, j].CaseNumber[y, u].CanSetNumber())
+                                if (l_Grid.SubGridArray[i, j].CaseNumber[y, u].CanSetNumber())
                                 {
-                                    if (m_Grid.SubGridArray[i, j].CheckNumberIsValid(l_Rdm) && m_Grid.CheckSubGridColum(y, i, l_Rdm) && m_Grid.CheckSubGridRow(u, j, l_Rdm))
+                                    if (l_Grid.SubGridArray[i, j].CheckNumberIsValid(l_Rdm) && l_Grid.CheckSubGridColum(y, i, l_Rdm) && l_Grid.CheckSubGridRow(u, j, l_Rdm))
                                     {
-                                        m_Grid.SubGridArray[i, j].CaseNumber[y, u].Number = l_Rdm;
-                                        m_Grid.SubGridArray[i, j].CaseNumber[y, u].DisplayNumber(l_Rdm);
+                                        l_Grid.SubGridArray[i, j].CaseNumber[y, u].Number = l_Rdm;
+                                        l_Grid.SubGridArray[i, j].CaseNumber[y, u].DisplayNumber(l_Rdm);
                                         u++;
                                         m_Index++;
                                     }
@@ -49,26 +48,28 @@ public class SudokuGenerator : MonoBehaviour
                                 else
                                 {
                                     //yield return new WaitForSeconds(1f);
-                                    ResetGrid(m_Grid);
+                                    ResetGrid(l_Grid);
                                     i = 0;
                                     j = 0;
-                                    y = 0; 
+                                    y = 0;
                                     u = 0;
+                                    m_Index = 0;
                                 }
-                                //yield return new WaitForSeconds(.10f);
                                 yield return null;
-                                
                             }
                         }
                     }
                 }
-                m_DataLevel.m_GridsLevel.Add(m_Grid);
                 Debug.Log($"j'en suis a {m_Index}");
+                m_DataLevel.m_GridsLevel.Add(l_Grid);
+                yield return new WaitForSeconds(5f);
+                ResetGrid(l_Grid);
             }
         }
+        StopCoroutine(CreateSudokuGrid());
     }
 
-    public void ResetGrid(Grid p_Grid)
+    public void ResetGrid(GridSudoku p_Grid)
     {
         for (int i = 0; i < 3; i++)
         {

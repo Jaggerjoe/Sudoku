@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Grid 
+public class GridSudoku 
 {
     #region References
-    [SerializeField] List<SubGrid> m_SubGrid = new List<SubGrid>();
+    //[SerializeField] List<SubGrid> m_SubGrid = new List<SubGrid>();
     private SubGrid[,] m_SubGridArray = new SubGrid[3, 3];
     #endregion
 
     #region Properties
-    public List<SubGrid> SubGridList { get { return m_SubGrid; } }
+    //public List<SubGrid> SubGridList { get { return m_SubGrid; } }
     public SubGrid[,] SubGridArray { get { return m_SubGridArray; } }
     #endregion
-    public Grid()
+    public GridSudoku()
     {
         CreateSubGrid();
         AddRefernceGrid();
-        m_SubGrid.Reverse();
+        //m_SubGrid.Reverse();
     }
 
     private void CreateSubGrid()
@@ -28,15 +28,18 @@ public class Grid
             for (int j = 0; j < 3; j++)
             {
                 m_SubGridArray[i, j] = new SubGrid(i,j);
-                m_SubGrid.Add(m_SubGridArray[i, j]);
+                //m_SubGrid.Add(m_SubGridArray[i, j]);
             }
         }
     }
     void AddRefernceGrid()
     {
-        foreach (var item in m_SubGrid)
+        for (int i = 0; i < 3; i++)
         {
-            item.Grid = this;
+            for (int j = 0; j < 3; j++)
+            {
+                m_SubGridArray[i, j].Grid = this;
+            }
         }
     }
 

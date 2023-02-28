@@ -5,7 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New PackLevel", menuName = "Game/LevelSudoku")]
 public class DataLevel : ScriptableObject
 {
-
-    public List<Grid> m_GridsLevel = new List<Grid>();
-
+    public List<GridSudoku> m_GridsLevel = new List<GridSudoku>();
 }

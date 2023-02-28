@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 [System.Serializable]
 public class CaseNumber 
 {
@@ -11,11 +12,10 @@ public class CaseNumber
     private int m_PositionY = 0;
     private SubCaseNumber[,] m_SubCaseNumber = new SubCaseNumber[3,3];
     private SubGrid m_SubGrid = null;
-    private GameObject m_Case = null;
+    [SerializeField]private GameObject m_Case = null;
     private GameObject m_GridSubCase = null;
     private Text m_Text = null;
 
-    [SerializeField] List<SubCaseNumber> m_SubDebug = new List<SubCaseNumber>();
     #endregion
 
     #region Properties
@@ -23,7 +23,6 @@ public class CaseNumber
     public GameObject GridSubCaseNumber { set { m_GridSubCase = value; } }
     public Text Text { set { m_Text = value; } }
     public SubCaseNumber[,] SubCaseNumber { get { return m_SubCaseNumber; } set { m_SubCaseNumber = value; } }
-    public List<SubCaseNumber> SubDebug { get { return m_SubDebug; } set { m_SubDebug = value; } }
     public SubGrid SubGrid { get { return m_SubGrid; } }
     public int Number { get { return m_Number; }set { m_Number = value; } }
     #endregion
@@ -44,7 +43,6 @@ public class CaseNumber
             for (int j = 0; j < 3; j++)
             {
                 m_SubCaseNumber[i, j] = new SubCaseNumber(l_Number, this);
-                m_SubDebug.Add(m_SubCaseNumber[i, j]);
                 l_Number++;
             }
         }

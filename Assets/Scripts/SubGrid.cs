@@ -38,13 +38,13 @@ public class SubGrid
             }
         }
     }
-    public bool CheckNumberIsValid(int p_Numnber)
+    public bool CheckNumberIsValid(int p_Number)
     {
         for (int i = 0; i < 3; i++)
         {
             for (int j = 0; j < 3; j++)
             {
-                if(p_Numnber == m_CaseNum[i,j].Number)
+                if(p_Number == m_CaseNum[i,j].Number)
                 {
                     return false;
                 }

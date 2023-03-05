@@ -34,13 +34,17 @@ public class SudokuGenerator : MonoBehaviour
                         {
                             for (int u = 0; u < 3;)
                             {
-                                int l_Rdm = Random.Range(1, 10);
-                                if (l_Grid.SubGridArray[i, j].CaseNumber[y, u].CanSetNumber())
+                                List<int> l_Numbers = l_Grid.SubGridArray[i, j].CaseNumber[y, u].CanSetNumber();
+                                if (l_Numbers.Count > 0)
                                 {
-                                    if (l_Grid.SubGridArray[i, j].CheckNumberIsValid(l_Rdm) && l_Grid.CheckSubGridColum(y, i, l_Rdm) && l_Grid.CheckSubGridRow(u, j, l_Rdm))
+                                    int l_Rdm = Random.Range(0, l_Numbers.Count);
+                                    //Debug.Log($"mon rdm est {l_Rdm} ma value ets donc {l_Numbers[l_Rdm]} ma longueur de tableau est de {l_Numbers.Count}");
+                                     //yield return new WaitForSeconds(5f);
+
+                                    if (l_Grid.SubGridArray[i, j].CheckNumberIsValid(l_Numbers[l_Rdm]) && l_Grid.CheckSubGridColum(y, i, l_Numbers[l_Rdm]) && l_Grid.CheckSubGridRow(u, j, l_Numbers[l_Rdm]))
                                     {
-                                        l_Grid.SubGridArray[i, j].CaseNumber[y, u].Number = l_Rdm;
-                                        l_Grid.SubGridArray[i, j].CaseNumber[y, u].DisplayNumber(l_Rdm);
+                                        l_Grid.SubGridArray[i, j].CaseNumber[y, u].Number = l_Numbers[l_Rdm];
+                                        l_Grid.SubGridArray[i, j].CaseNumber[y, u].DisplayNumber(l_Numbers[l_Rdm]);
                                         u++;
                                         m_Index++;
                                     }

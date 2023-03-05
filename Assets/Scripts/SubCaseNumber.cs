@@ -20,7 +20,7 @@ public class SubCaseNumber
     public Button Button { set { m_Button = value; } }
     public Image Image { set { m_Image = value; } }
     public int Number { get { return m_Number; } }
-    public bool CanSetNumber { get { return m_CanThisNumber; } }
+    public bool CanSetNumberBool { get { return m_CanThisNumber; } }
     #endregion
     public SubCaseNumber(int p_Number, CaseNumber p_CaseParent)
     {

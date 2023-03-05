@@ -35,10 +35,9 @@ public class GameManager : MonoBehaviour
     {
     }
 
-    void CreateSubGrid()
+    public void CreateSubGrid()
     {
         int l_Num = 1;
-
         for (int i = 0; i < 3; i++)
         {
             for (int j = 0; j < 3; j++)
@@ -99,6 +98,7 @@ public class GameManager : MonoBehaviour
 
     private void AddSubGridGameObject(GridSudoku p_Grid)
     {
+        Debug.Log(p_Grid);
         int l_Index = 0;
         for (int i = 0; i < 3; i++)
         {

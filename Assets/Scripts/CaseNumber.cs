@@ -8,6 +8,7 @@ public class CaseNumber
 {
     #region References
     [SerializeField] private int m_Number = 0;
+    private int[] m_Numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     private int m_PositionX = 0;
     private int m_PositionY = 0;
     private SubCaseNumber[,] m_SubCaseNumber = new SubCaseNumber[3,3];
@@ -89,27 +90,26 @@ public class CaseNumber
         }
     }
 
-    public bool CanSetNumber()
+    public List<int> CanSetNumber()
     {
-        int m_SubCaseCantSetNumber = 0;
+        int l_SubCaseCantSetNumber = 0;
+        List<int> l_NumberVlid = new List<int>();
         for (int i = 0; i < 3; i++)
         {
             for (int j = 0; j < 3; j++)
             {
-                if(!m_SubCaseNumber[i, j].CanSetNumber)
+                if(!m_SubCaseNumber[i, j].CanSetNumberBool)
                 {
-                    m_SubCaseCantSetNumber++;
+                    l_SubCaseCantSetNumber++;
+                }
+                else
+                {
+                    l_NumberVlid.Add(m_SubCaseNumber[i, j].Number);
+                    Debug.Log(m_SubCaseNumber[i, j].Number);
                 }
             }
         }
-        if(m_SubCaseCantSetNumber ==9)
-        {
-            return false;
-        }
-        else
-        {
-            return true;
-        }
+        return l_NumberVlid;
     }
 
     public void ResetCase()

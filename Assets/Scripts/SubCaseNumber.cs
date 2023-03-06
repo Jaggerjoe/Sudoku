@@ -12,7 +12,7 @@ public class SubCaseNumber
     private CaseNumber m_CaseParent;
     private Button m_Button = null;
     private Image m_Image = null;
-    [SerializeField] bool m_CanThisNumber = true;
+    [SerializeField] bool m_CanSetNumber = true;
     #endregion
 
     #region Porperties
@@ -20,7 +20,7 @@ public class SubCaseNumber
     public Button Button { set { m_Button = value; } }
     public Image Image { set { m_Image = value; } }
     public int Number { get { return m_Number; } }
-    public bool CanSetNumberBool { get { return m_CanThisNumber; } }
+    public bool CanSetNumberBool { get { return m_CanSetNumber; } }
     #endregion
     public SubCaseNumber(int p_Number, CaseNumber p_CaseParent)
     {
@@ -40,9 +40,22 @@ public class SubCaseNumber
         l_Cols.colorMultiplier = 2;
         m_Button.colors = l_Cols;
         m_Image.color = Color.black;
-        m_CanThisNumber = false;
+        m_CanSetNumber = false;
     }
 
+    public void ACtiveSubCaseNumber(int p_Number)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 2; j++)
+            {
+                if(m_Number == p_Number)
+                {
+                    ResetCase();
+                }
+            }
+        }
+    }
     public void ResetCase()
     {
         m_Button.interactable = true;
@@ -50,6 +63,6 @@ public class SubCaseNumber
         l_Cols.colorMultiplier = 1;
         m_Button.colors = l_Cols;
         m_Image.color = Color.white;
-        m_CanThisNumber = true;
+        m_CanSetNumber = true;
     }
 }

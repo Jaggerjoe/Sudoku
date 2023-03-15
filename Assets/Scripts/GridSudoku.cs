@@ -88,4 +88,69 @@ public class GridSudoku
             m_SubGridArray[i, p_PositionSUbGridY].DesactivateSubgCaseNumberColum(p_PositionY, p_Number);
         }
     }
+
+    #region Debloquage subcaseNumber
+    public void GetSubGridRaw()
+    {
+        int l_Index = 0;
+        List<int> l_Number = new List<int>();
+        for (int i = 0; i < 3;)
+        {
+            for (int j = 0; j < 3;j++)
+            {
+                m_SubGridArray[i, j].GetCurrentSubGridRow(l_Index, l_Number);
+            }
+            //Debug.Log($"La taille de ma list est de : {l_Number.Count}");
+            SetNumberOnSubCase(i,l_Index, l_Number);
+            l_Number.Clear();
+
+            l_Index++;
+            if (l_Index > 2)
+            {
+                i++;
+                l_Index = 0;
+            }
+        }
+    }
+
+    public void SetNumberOnSubCase(int p_PosX,int p_Index, List<int> p_NumberToDisplay)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            m_SubGridArray[p_PosX, j].SetSubCaseNumberRow(p_Index,p_NumberToDisplay);
+        }
+    }
+
+    public void GetSubGridCol()
+    {
+        int l_Index = 0;
+        List<int> l_Number = new List<int>();
+        for (int i = 0; i < 3;)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                m_SubGridArray[j,i].GetCurrentSubGridCol(l_Index, l_Number);
+            }
+            Debug.Log($"La taille de ma list est de : {l_Number.Count}");
+            SetNumberOnSubCaseCol(i, l_Index, l_Number);
+            l_Number.Clear();
+
+            l_Index++;
+            if (l_Index > 2)
+            {
+                i++;
+                l_Index = 0;
+            }
+        }
+    }
+
+    public void SetNumberOnSubCaseCol(int p_PosY, int p_Index, List<int> p_NumberToDisplay)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            m_SubGridArray[j,p_PosY].SetSubCaseNumberCol(p_Index, p_NumberToDisplay);
+        }
+    }
+
+    #endregion
 }

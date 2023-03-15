@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -58,7 +59,6 @@ public class CaseNumber
         Debug.Log(p_Number);
         if (m_SubGrid.CheckNumberIsValid(p_Number) && m_SubGrid.Grid.CheckSubGridColum(m_PositionX, m_SubGrid.PositionSubgridX, p_Number) && m_SubGrid.Grid.CheckSubGridRow(m_PositionY, m_SubGrid.PositionSubgridY, p_Number))
         {
-            Debug.Log("oui");
             m_CanSetNumber = false;
             m_Number = p_Number;
             m_GridSubCase.SetActive(false);
@@ -149,9 +149,30 @@ public class CaseNumber
         {
             for (int j = 0; j < 3; j++)
             {
-                m_SubCaseNumber[i, j].ResetCase();
+                m_SubCaseNumber[i, j].ResetSubCase();
                 m_GridSubCase.SetActive(true);
                 m_Text.enabled = false;
+            }
+        }
+    }
+
+    public void SetSubCaseNumber(List<int> p_Numbers)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                if (!m_SubCaseNumber[i,j].CanChange)
+                    m_SubCaseNumber[i, j].ResetSubCase();
+
+                foreach (var item in p_Numbers)
+                {
+                    if (m_SubCaseNumber[i,j].Number == item && !m_SubCaseNumber[i,j].CanChange)
+                    {
+                        m_SubCaseNumber[i, j].CanChange = true;
+                        m_SubCaseNumber[i, j].DesactivateCase();
+                    }
+                }
             }
         }
     }

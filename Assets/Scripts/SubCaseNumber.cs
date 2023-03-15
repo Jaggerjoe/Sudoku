@@ -9,18 +9,20 @@ public class SubCaseNumber
     #region References
     [SerializeField] int m_Number = 0;
     [SerializeField] GameObject m_SelfCase;
+    [SerializeField] bool m_CanSetNumber = true;
     private CaseNumber m_CaseParent;
     private Button m_Button = null;
     private Image m_Image = null;
-    [SerializeField] bool m_CanSetNumber = true;
+    bool m_CanChange = false;
     #endregion
 
     #region Porperties
-    public GameObject SelfSubCaseNumber { set { m_SelfCase = value; } }
+    public GameObject SelfSubCaseNumber { get { return m_SelfCase; } set { m_SelfCase = value; } }
     public Button Button { set { m_Button = value; } }
     public Image Image { set { m_Image = value; } }
     public int Number { get { return m_Number; } }
     public bool CanSetNumberBool { get { return m_CanSetNumber; } }
+    public bool CanChange { get { return m_CanChange; } set { m_CanChange = value; } }
     #endregion
     public SubCaseNumber(int p_Number, CaseNumber p_CaseParent)
     {
@@ -51,12 +53,12 @@ public class SubCaseNumber
             {
                 if(m_Number == p_Number)
                 {
-                    ResetCase();
+                    ResetSubCase();
                 }
             }
         }
     }
-    public void ResetCase()
+    public void ResetSubCase()
     {
         m_Button.interactable = true;
         ColorBlock l_Cols = m_Button.colors;

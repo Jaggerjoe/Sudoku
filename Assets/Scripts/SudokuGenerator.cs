@@ -18,7 +18,7 @@ public class SudokuGenerator : MonoBehaviour
     {
         int m_Index = 0;
 
-        while (m_DataLevel.m_GridsLevel.Count != 10)
+        while (m_DataLevel.m_GridsLevel.Count != 100)
         {
             GridSudoku l_Grid = new GridSudoku();
             m_GameManager.AddGameObject(l_Grid);
@@ -64,10 +64,12 @@ public class SudokuGenerator : MonoBehaviour
                     }
                 }
                 RemoveNumber(l_Grid);
+                l_Grid.GetSubGridRaw();
+                l_Grid.GetSubGridCol();
                 Debug.Log($"j'en suis a {m_Index}");
                 m_DataLevel.m_GridsLevel.Add(l_Grid);
                 yield return new WaitForSeconds(5000f);
-                ResetGrid(l_Grid);
+                //ResetGrid(l_Grid);
             }
         }
         StopCoroutine(CreateSudokuGrid());
@@ -100,7 +102,7 @@ public class SudokuGenerator : MonoBehaviour
                 }
             }
         }
-        DisplayubCase(p_Grid);
+        //DisplayubCase(p_Grid);
     }
 
     void DisplayubCase(GridSudoku p_Grid)

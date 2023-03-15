@@ -102,4 +102,50 @@ public class SubGrid
             }
         }
     }
+
+    public void GetCurrentSubGridRow(int p_PosX, List<int>p_Number)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            if(!m_CaseNum[p_PosX, i].SetNumber)
+            {
+                p_Number.Add(m_CaseNum[p_PosX,i].Number);
+            }
+        }
+    }
+    public void GetCurrentSubGridCol(int p_PosY, List<int> p_Number)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            if (!m_CaseNum[i,p_PosY].SetNumber)
+            {
+                p_Number.Add(m_CaseNum[i,p_PosY].Number);
+            }
+        }
+    }
+
+    public void SetSubCaseNumberRow(int p_Index, List<int> p_Numbers)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            if (m_CaseNum[p_Index, i].SetNumber)
+            {
+                //Debug.Log(m_CaseNum[p_Index, i].Case, m_CaseNum[p_Index, i].Case);
+                m_CaseNum[p_Index, i].SetSubCaseNumber(p_Numbers);
+            }
+        }
+    }
+
+    public void SetSubCaseNumberCol(int p_Index, List<int> p_Numbers)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            if (m_CaseNum[i,p_Index].SetNumber)
+            {
+                //Debug.Log(m_CaseNum[p_Index, i].Case, m_CaseNum[p_Index, i].Case);
+                m_CaseNum[i,p_Index].SetSubCaseNumber(p_Numbers);
+            }
+        }
+    }
 }
+

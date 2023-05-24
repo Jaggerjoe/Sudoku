@@ -103,6 +103,31 @@ public class SubGrid
         }
     }
 
+    public void GetCurrentSubGrid(List<int> p_Numbers)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                if (!m_CaseNum[i, j].SetNumber)
+                {
+                    p_Numbers.Add(m_CaseNum[i, j].Number);
+                }
+            }
+        }
+    }
+
+    public void SetSubCaseNumberState(List<int> p_Numbers)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                m_CaseNum[i, j].SetSubCaseNumber(p_Numbers);
+            }
+        }
+    }
+
     public void GetCurrentSubGridRow(int p_PosX, List<int>p_Number)
     {
         for (int i = 0; i < 3; i++)

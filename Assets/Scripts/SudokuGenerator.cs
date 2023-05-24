@@ -63,10 +63,13 @@ public class SudokuGenerator : MonoBehaviour
                         }
                     }
                 }
+                //yield return new WaitForSeconds(10f);
+
                 RemoveNumber(l_Grid);
+                l_Grid.SetSubCaseNumberState();
                 l_Grid.GetSubGridRaw();
                 l_Grid.GetSubGridCol();
-                Debug.Log($"j'en suis a {m_Index}");
+
                 m_DataLevel.m_GridsLevel.Add(l_Grid);
                 yield return new WaitForSeconds(5000f);
                 //ResetGrid(l_Grid);
@@ -78,8 +81,8 @@ public class SudokuGenerator : MonoBehaviour
     void RemoveNumber(GridSudoku p_Grid)
     {
         int l_Index = 0;
-
-        while(l_Index < 46)
+        int l_NombreDelete = 43;
+        while(l_Index < l_NombreDelete)
         {
             for (int i = 0; i < 3; i++)
             {
@@ -89,10 +92,13 @@ public class SudokuGenerator : MonoBehaviour
                     {
                         for (int u = 0; u < 3; u++)
                         {
-                            if (l_Index == 46)
+                            if (l_Index == l_NombreDelete)
+                            {
+                                Debug.Log(l_Index);
                                 break;
+                            }
                             int l_Rdm = Random.Range(0, 2);
-                            if (l_Rdm == 1)
+                            if (l_Rdm == 1 && !p_Grid.SubGridArray[i, j].CaseNumber[y, u].SetNumber)
                             {
                                 p_Grid.SubGridArray[i, j].CaseNumber[y, u].HideCase();
                                 l_Index++;

@@ -41,7 +41,7 @@ public class SubCaseNumber
         ColorBlock l_Cols = m_Button.colors;
         l_Cols.colorMultiplier = 2;
         m_Button.colors = l_Cols;
-        m_Image.color = Color.black;
+        m_Image.color = new Vector4(.2f,.2f,.2f,1);
         m_CanSetNumber = false;
     }
 
